@@ -7,4 +7,4 @@ site intuitivo e responsivo de uma barbearia
 
 ![image](https://github.com/marinacanal/Barbearia/assets/121324624/ef54124f-d3c9-4fbb-8b24-faabb71c817f)
 
-
+e mais!
