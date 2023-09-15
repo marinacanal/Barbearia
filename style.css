@@ -64,10 +64,11 @@
   width: 100%;
   height: auto;
   background-color: white;
-  padding: 40px 40px 50px 40px;
+  padding: 40px 40px;
   }
   
   .itens-sobre {
+  width: 50%;
   height: auto;
   float: left; 
   }
@@ -88,7 +89,6 @@
   text-align: justify;
   text-justify: inter-word;
   float: left; 
-  padding-bottom: 42px;
   }
 
   .img-sobre {
@@ -96,10 +96,11 @@
   }
   
   .img-sobre img{
-  width: 550px;
+  width: 540px;
   height: auto;
-  float: left;
-  margin-left: 55px;
+  float: center;
+  margin: 0 auto;
+  display: flex;
   }
   
   .servicos {
