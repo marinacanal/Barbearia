@@ -71,6 +71,7 @@
   width: 50%;
   height: auto;
   float: left; 
+  padding-right: 50px;
   }
   
   .itens-sobre h1, .servicos h1, .depoimentos h1, .contato-social h1{
@@ -89,6 +90,7 @@
   text-align: justify;
   text-justify: inter-word;
   float: left; 
+  padding-bottom: 30px;
   }
 
   .img-sobre {
@@ -96,11 +98,12 @@
   }
   
   .img-sobre img{
-  width: 540px;
+  width: 550px;
   height: auto;
   float: center;
   margin: 0 auto;
   display: flex;
+  padding-top: 25px;
   }
   
   .servicos {
@@ -119,18 +122,19 @@
   }
   
   .img-servicos img {
-  width: 70%;
-  height: 70%;
+  width: 80%;
+  height: 80%;
   aspect-ratio: 1/1;
   border-radius: 50%;
   object-fit: cover;
   margin: auto;
   display: flex;
+  margin-top: 15px;
   }
   
   .servicos h3 {
   text-align: center;
-  margin-top: 10%;
+  margin-top: 11%;
   font-weight: bold;
   font-size: 200%;
   }
@@ -143,15 +147,14 @@
   
   .agende {
   width: 100%;
-  height: 300px;
-  margin-top: 500px;
+  height: auto;
   background-image: url(https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding: 95px 40px;
   object-fit: cover;
   }
   
@@ -194,7 +197,7 @@
   }
   
   .carrosel-dep hr{
-  width: 700px;
+  width: 98%;
   }
   
   .carrosel-dep h2{
@@ -283,21 +286,21 @@
   justify-content: center;
   background-color: black;
   color: white;
-  padding: 2%;
+  padding: 3%;
   }
   
   
-  @media screen and (max-width: 1064px) {
-  .itens-sobre{
+  @media screen and (max-width: 1190px) {
+  .itens-sobre {
     width: 100%;
+    padding-right: 0;
   }
-  .itens-sobre p {
-    margin-top: -15px;
-    font-size: 22px;
+  .itens-sobre p{
+    padding-bottom: 0;
   }
-  .img-sobre {
+  .img-sobre img{
     width: 100%;
-    margin-top: -50px;
+    padding-bottom: 22px;
   }
   .agende{
     width: 100%;
@@ -305,18 +308,13 @@
     padding: 40px;
   }
   .servicos h3{
-    font-size: 150%;
+    font-size: 180%;
   }
   }
   
   @media screen and (max-width: 910px) {
-  .agende button {
-  width: 40%;
-  font-size: 14px;
-  margin: auto;
-  }
   .agende h1{
-  font-size: 24px;
+  font-size: 28px;
   }
   nav {
   width: auto;
@@ -328,20 +326,24 @@
   line-height: 60px;
   display: inline-block;
   }
-  .sobre h1 {
-  font-size: 30px;
-  }
-  .itens-sobre {
-  width: 100%;
-  padding: 5% 5% 2% 5%;
-  margin: 5px auto;
+  .sobre h1, .servicos h1, .depoimentos h1, .contato-social h1 {
+  font-size: 35px;
   }
   .servicos h3{
-  font-size: 100%;
+  font-size: 120%;
   }
   }
   
   @media screen and (max-width: 580px) {
+  .sobre {
+    padding: 45px 25px;
+  }
+  .servicos {
+    padding: 30px 30px 25px 30px;
+  }
+  .servicos img{
+    margin-top: -10px;
+  }
   .agende button {
   width: 60%;
   font-size: 12px;
@@ -351,9 +353,10 @@
   margin-bottom: 40px;
   }
   .atendimentos h1 {
-  font-size: 280%;
+  margin-top: 12px;
+  font-size: 200%;
   }
   .atendimentos p {
-  font-size: 180%;
+  font-size: 120%;
   }
   }
