@@ -338,16 +338,25 @@
   .sobre {
     padding: 45px 25px;
   }
+  .sobre p {
+    font-size: 22px;
+  }
   .servicos {
     padding: 30px 30px 25px 30px;
   }
   .servicos img{
     margin-top: -10px;
   }
+  .agende h1 {
+    font-size: 24px;
+  }
   .agende button {
   width: 60%;
   font-size: 12px;
   margin: auto;
+  }
+  .carrosel-dep hr{
+    margin-bottom: 80px;
   }
   .contato-social button {
   margin-bottom: 40px;
