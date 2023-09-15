@@ -64,12 +64,11 @@
   width: 100%;
   height: auto;
   background-color: white;
+  padding: 40px 40px 50px 40px;
   }
   
   .itens-sobre {
-  width: 50%;
   height: auto;
-  padding: 4%;
   float: left; 
   }
   
@@ -88,15 +87,19 @@
   font-size: 160%;
   text-align: justify;
   text-justify: inter-word;
+  float: left; 
+  padding-bottom: 42px;
+  }
+
+  .img-sobre {
+  width: 100%;
   }
   
-  .img-sobre {
-  width: 50%;
+  .img-sobre img{
+  width: 550px;
   height: auto;
-  padding: 4%;
   float: left;
-  line-height: 460px;
-  display: inline;
+  margin-left: 55px;
   }
   
   .servicos {
@@ -241,8 +244,8 @@
   }
   
   .imgs-redes img{
-  width: 80px;
-  height: 80px;
+  width: 75px;
+  height: 75px;
   padding: 7px;
   float: left;
   }
@@ -319,7 +322,7 @@
   height: 40px;
   }
   nav a{
-  font-size: 12px;
+  font-size: 10px;
   margin: -10px;
   line-height: 60px;
   display: inline-block;
