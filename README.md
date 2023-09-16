@@ -1,10 +1,6 @@
 # Barbearia
-site intuitivo e responsivo de uma barbearia
+esse é o meu primeiro site responsivo, o qual é possível acessá-lo em um celular também, feito a partir do tema: barbearia
 
-![image](https://github.com/marinacanal/Barbearia/assets/121324624/41c93d1c-9801-4c03-9a78-65698f079471)
+acesse-o em: https://marinacanal.github.io/Barbearia/
 
-![image](https://github.com/marinacanal/Barbearia/assets/121324624/dc4491b8-05a8-459d-b2dc-6944627b87a0)
-
-![image](https://github.com/marinacanal/Barbearia/assets/121324624/ef54124f-d3c9-4fbb-8b24-faabb71c817f)
-
-e mais!
+espero que gostem!
