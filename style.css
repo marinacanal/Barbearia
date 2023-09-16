@@ -254,9 +254,9 @@
   .atend-text{
   background-color: rgba(46, 46, 46, 0.575);
   text-align: center;
-  padding: 3%;
+  padding: 4% 3% 3% 3%;
   }
-  
+
   .atend-text h1{
   font-size: 350%;
   font-weight: bold;
@@ -359,7 +359,7 @@
     margin-bottom: 40px;
   }
   .atendimentos h1 {
-    margin-top: 18px;
+    margin-top: 12px;
     font-size: 180%;
   }
   }
