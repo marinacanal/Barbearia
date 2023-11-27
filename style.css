@@ -1,120 +1,124 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
-    margin: 0;
-  }
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
 
-  .row{
-    margin-right: 0;
-    margin-left: 0;
-  }
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
 
-  nav{
-    width: 100%;
-    height: 50px;
-    background-color: #4e4e52;
-    text-align: right;
-  }
-  
-  nav a{
-    list-style-type: none;
-    text-decoration: none;
-    color: white;
-    position: relative;
-    line-height: 50px;
-    display: inline-block;
-    padding: 0 15px;
-    transition: 0.1s ease-out;
-    font-size: 16px;
-  }
-  
-  nav a:hover{  
-    color: rgb(218, 218, 218);
-  }
-  
-  .banner{
-  width:100%;
-  height: 600px;
-  }
-  
-  .banner img{
+nav {
   width: 100%;
-  height: 600px;
+  height: 50px;
+  background-color: black;
+  text-align: right;
+}
+
+nav a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  position: relative;
+  line-height: 50px;
+  display: inline-block;
+  padding: 0 15px;
+  transition: 0.1s ease-out;
+  font-size: 16px;
+}
+
+nav a:hover {
+  color: rgb(218, 218, 218);
+}
+
+.banner {
+  width: 100%;
+  height: 750px;
+}
+
+.banner img {
+  width: 100%;
+  height: 750px;
   object-fit: cover;
-  filter: brightness(0.50);  
+  filter: brightness(0.50);
   z-index: -1;
-  }
-  
-  .banner h1 {
+}
+
+.banner h1 {
   position: absolute;
   top: 45%;
   font-size: 350%;
   color: white;
   font-weight: bolder;
-  }
-  
-  .sobre {
+}
+
+.sobre {
   width: 100%;
-  height: 640px;
+  height: 590px;
   align-items: center;
+  justify-content: center;
   background-color: white;
-  padding: 80px;
-  }
-  
-  .itens-sobre {
+  padding: 100px;
+}
+
+.itens-sobre {
   width: 50%;
-  float: left; 
-  padding-left: 5%;
-  }
-  
-  .itens-sobre h1, .servicos h1, .depoimentos h1, .contato-social h1{
-  font-size: 250%;
+  float: left;
+}
+
+.itens-sobre h1,
+.servicos h1,
+.depoimentos h1,
+.contato-social h1 {
+  font-size: 290%;
   font-weight: bold;
-  }
-  
-  .itens-sobre hr, .depoimentos hr {
+}
+
+.itens-sobre hr,
+.depoimentos hr {
   height: 5px;
   color: gray;
   background-color: gray;
-  }
-  
-  .itens-sobre p {
+}
+
+.itens-sobre p {
   font-size: 160%;
   text-align: justify;
   text-justify: inter-word;
-  float: left; 
-  }
-  
-  .img-sobre{
+}
+
+.img-sobre {
   width: 50%;
   height: 100%;
   float: right;
   display: flex;
   text-align: center;
-  }
+}
 
-  .img-sobre img{
-    width: 65%;
-    margin: auto;
-    margin-left: 25%;
-  }
-  
-  .servicos {
+.img-sobre img {
+  width: 80%;
+  margin: auto;
+  margin-left: 20%;
+  border-radius: 20px;
+}
+
+.servicos {
   width: 100%;
   height: 15%;
   float: left;
   padding: 50px;
   background-color: #4e4e52;
   color: white;
-  }
-  
-  .img-servicos {
+}
+
+.img-servicos {
   display: flex;
   align-items: center;
   justify-content: center;
-  }
-  
-  .img-servicos img {
+}
+
+.img-servicos img {
   width: 80%;
   height: 80%;
   aspect-ratio: 1/1;
@@ -123,22 +127,23 @@
   margin: auto;
   display: flex;
   margin-top: 15px;
-  }
-  
-  .servicos h3 {
+}
+
+.servicos h3 {
   text-align: center;
   margin-top: 11%;
   font-weight: bold;
   font-size: 200%;
-  }
-  
-  .servicos hr, .contato-social hr {
+}
+
+.servicos hr,
+.contato-social hr {
   height: 5px;
   color: white;
   background-color: white;
-  }
-  
-  .agende {
+}
+
+.agende {
   width: 100%;
   height: auto;
   background-image: url(https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -149,35 +154,35 @@
   align-items: center;
   padding: 95px 40px;
   object-fit: cover;
-  }
-  
-  .agende h1 {
+}
+
+.agende h1 {
   text-align: left;
   margin: 0 auto;
   color: white;
   font-size: 40px;
   font-weight: bold;
-  }
-  
-  .agende button{
+}
+
+.agende button {
   display: block;
   margin: 0 auto;
   padding: auto;
   height: 65px;
   font-weight: bold;
   border-radius: 20px;
-  }
-  
-  .carrosel-dep {
+}
+
+.carrosel-dep {
   padding: 40px;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 600px;
   background-color: white;
-  }
-  
-  .carrosel-dep img{
+}
+
+.carrosel-dep img {
   background-image: url(https://images.pexels.com/photos/1965993/pexels-photo-1965993.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   aspect-ratio: 1/1;
   border-radius: 50%;
@@ -187,86 +192,87 @@
   margin: 0 auto;
   display: flex;
   border: 5px solid #4e4e52;
-  }
-  
-  .carrosel-dep hr{
+}
+
+.carrosel-dep hr {
   width: 98%;
-  }
-  
-  .carrosel-dep h2{
+}
+
+.carrosel-dep h2 {
   font-weight: bold;
-  }
-  
-  .carrosel-dep p{
+}
+
+.carrosel-dep p {
   font-size: 20px;
-  }
-  
-  .contato-social{
+}
+
+.contato-social {
   width: 100%;
   height: auto;
   background-color: #4e4e52;
   padding: 40px 30px 50px 30px;
   color: white;
-  }
-  
-  .contato-social hr{
+}
+
+.contato-social hr {
   width: 98%;
-  }
-  
-  .contato-social label{
+}
+
+.contato-social label {
   padding: 10px 0 5px 0;
-  }
-  
-  .contato-social button{
+}
+
+.contato-social button {
   width: 100px;
   height: 43px;
   border-radius: 15px;
-  }
-  
-  .contato-social input, .contato-social textarea{
+}
+
+.contato-social input,
+.contato-social textarea {
   width: 99%;
-  }
-  
-  .contato-social p{
+}
+
+.contato-social p {
   font-size: 22px;
-  }
-  
-  .imgs-redes{
+}
+
+.imgs-redes {
   width: 100%;
-  }
-  
-  .imgs-redes img{
+}
+
+.imgs-redes img {
   width: 75px;
   height: 75px;
   padding: 7px;
   float: left;
-  }
-  
-  .atendimentos{
+}
+
+.atendimentos {
   width: 100%;
   height: auto;
   background-image: url(https://images.pexels.com/photos/1319459/pexels-photo-1319459.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-size: cover;
   color: white;
   padding: 5%;
-  }
-  
-  .atend-text{
+}
+
+.atend-text {
   background-color: rgba(46, 46, 46, 0.575);
   text-align: center;
   padding: 4% 3% 3% 3%;
-  }
+}
 
-  .atend-text h1{
+.atend-text h1 {
   font-size: 350%;
   font-weight: bold;
-  }
-  
-  .atend-text p{
+}
+
+.atend-text p {
   font-size: 40px;
-  }
-  
-  footer{
+}
+
+footer {
   width: 100%;
   height: auto;
   display: flex;
@@ -275,97 +281,126 @@
   background-color: black;
   color: white;
   padding: 3%;
-  }
-  
-  
-  @media screen and (max-width: 1190px) {
+}
+
+
+@media screen and (max-width: 1190px) {
   .itens-sobre {
     width: 100%;
     padding-left: 0;
   }
-  .img-sobre{
+
+  .img-sobre {
     float: center;
     width: 100%;
     height: auto;
   }
-  .img-sobre img{
+
+  .img-sobre img {
     width: 100%;
     padding-bottom: 110px;
     margin-left: 0;
   }
-  .agende{
+
+  .agende {
     width: 100%;
     height: 170px;
     padding: 40px;
   }
-  .agende button{
+
+  .agende button {
     height: auto;
   }
-  .servicos h3{
+
+  .servicos h3 {
     font-size: 180%;
   }
-  }
-  
-  @media screen and (max-width: 910px) {
-  h1{
+}
+
+@media screen and (max-width: 910px) {
+  h1 {
     font-size: 20px;
   }
+
   nav {
-  width: auto;
-  height: 40px;
+    width: auto;
+    height: 40px;
   }
-  nav a{
-  font-size: 10px;
-  margin: -10px;
-  line-height: 60px;
-  display: inline-block;
+
+  nav a {
+    font-size: 10px;
+    margin: -10px;
+    line-height: 60px;
+    display: inline-block;
   }
-  .servicos h3{
+
+  .servicos h3 {
     font-size: 120%;
   }
-  }
-  
-  @media screen and (max-width: 578px) {
-  .sobre, .carrosel-dep, .contato-social{
+}
+
+@media screen and (max-width: 578px) {
+
+  .sobre,
+  .carrosel-dep,
+  .contato-social {
     padding: 37px 15px;
   }
-  .img-sobre img{
+
+  .img-sobre img {
     padding-bottom: 50px;
   }
-  p, .sobre p, .atendimentos p, .contato-social p{
+
+  p,
+  .sobre p,
+  .atendimentos p,
+  .contato-social p {
     font-size: 16px;
   }
-  .sobre h1, .servicos h1, .depoimentos h1, .contato-social h1 {
-  font-size: 28px;
+
+  .sobre h1,
+  .servicos h1,
+  .depoimentos h1,
+  .contato-social h1 {
+    font-size: 28px;
   }
-  .servicos{
+
+  .servicos {
     padding: 32px 12px;
   }
-  .servicos img{
+
+  .servicos img {
     margin-top: -10px;
   }
-  .servicos h3{
+
+  .servicos h3 {
     padding-top: 10px;
     font-size: 90%;
   }
-  .agende{
+
+  .agende {
     padding-left: 25px;
     padding-right: 25px;
   }
+
   .agende h1 {
     font-size: 20px;
   }
-  .agende button{
+
+  .agende button {
     font-size: 14px
   }
-  .carrosel-dep hr{
+
+  .carrosel-dep hr {
     margin-bottom: 80px;
   }
+
   .contato-social button {
     margin-bottom: 40px;
   }
+
   .atendimentos h1 {
     margin-top: 12px;
     font-size: 170%;
   }
-  }
+}
